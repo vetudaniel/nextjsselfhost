@@ -4,8 +4,6 @@ This repo shows how to deploy a Next.js app and a PostgreSQL database on a Ubunt
 
 this git just adds tailwind style and text to german of https://github.com/leerob/next-self-host for demo purposes
 
-[![Self Hosting Video Thumbnail](https://img.youtube.com/vi/sIVL4JMqRfc/0.jpg)](https://www.youtube.com/watch?v=sIVL4JMqRfc)
-
 ## Prerequisites
 
 1. Purchase a domain name
