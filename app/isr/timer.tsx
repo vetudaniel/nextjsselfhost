@@ -16,11 +16,14 @@ export function FreshnessTimer({ generatedAt }: { generatedAt: number }) {
   }, [generatedAt]);
 
   return (
-    <p>
-      Data has been fresh for:{' '}
-      {secondsElapsed !== null
-        ? `${secondsElapsed} second${secondsElapsed !== 1 ? 's' : ''}`
-        : ''}
+    <p className="text-sm text-zinc-300">
+      Daten sind seit:{' '}
+      <span className="text-cyan-400">
+        {secondsElapsed !== null
+          ? `${secondsElapsed} Sekunde${secondsElapsed !== 1 ? 'n' : ''}`
+          : ''}
+      </span>{' '}
+      aktuell
     </p>
   );
 }
