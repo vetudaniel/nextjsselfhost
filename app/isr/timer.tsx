@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 export function FreshnessTimer({ generatedAt }: { generatedAt: number }) {
-  const [secondsElapsed, setSecondsElapsed] = useState<number | null>(null);
+  const [secondsElapsed, setSecondsElapsed] = useState<number | null>(0);
 
   useEffect(() => {
     const updateTimer = () => {
