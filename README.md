@@ -21,7 +21,7 @@ this git just adds tailwind style and text to german of https://github.com/leero
 2. **Download the deployment script**:
 
    ```bash
-   curl -o ~/deploy.sh https://raw.githubusercontent.com/leerob/next-self-host/main/deploy.sh
+   curl -o ~/deploy.sh https://raw.githubusercontent.com/vetudaniel/nextjsselfhost/main/deploy.sh
    ```
 
    You can then modify the email and domain name variables inside of the script to use your own.
